@@ -2,52 +2,8 @@
 Implementação do clássico jogo da velha utilizando **Java** com foco em **orientação a objetos**.  
 O projeto foi estruturado para separar bem as responsabilidades, tornando fácil a manutenção, testes e evolução do código.
 
-## 🧩 Estrutura de Classes
 
-```mermaid
-classDiagram
-    class Main {
-        +main(String[] args)
-    }
-    class Game {
-        -Board board
-        -Player player1
-        -Player player2
-        -Player currentPlayer
-        +start()
-        -switchPlayer()
-    }
-    class Board {
-        -char[][] grid
-        +printBoard()
-        +makeMove(int row, int col, char symbol) boolean
-        +checkWinner() char
-        +isFull() boolean
-    }
-    class Player {
-        -String name
-        -char symbol
-        +getName() String
-        +getSymbol() char
-    }
-    Main --> Game
-    Game --> Board
-    Game --> Player
-🚀 Como Executar
-Compile os arquivos .java:
 
-bash
-Mostrar sempre detalhes
-
-Copiar código
-javac Main.java
-Execute a aplicação:
-
-bash
-Mostrar sempre detalhes
-
-Copiar código
-java Main
 ✨ Principais Características
 Estrutura em classes bem definida (Board, Player, Game, Main)
 
