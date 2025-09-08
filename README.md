@@ -18,3 +18,6 @@ Estrutura simples sem dependências externas
 
 🎯 Objetivo Educacional
 Este projeto foi desenvolvido para fins de estudo, praticando conceitos de POO, boas práticas de código e organização de projetos Java.
+
+
+RODE O JOGO PELO MAIN.JAVA
